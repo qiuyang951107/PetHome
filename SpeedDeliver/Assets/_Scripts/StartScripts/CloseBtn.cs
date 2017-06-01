@@ -23,6 +23,10 @@ public class CloseBtn : MonoBehaviour
             {
                 btn.GetComponent<Image>().sprite = expan;
             }
+            else
+            {
+                btn.GetComponent<Image>().sprite = back;
+            }
         });
     }
 
